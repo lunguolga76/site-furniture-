@@ -1,0 +1,117 @@
+<!--contentul de baza-->
+<!-- Section - contacts -->
+<div class="container col-xl-10 col-sm-12">
+<section class="my-5">
+  <!-- Section heading -->
+  <h1 class="h1-responsive font-weight-bold text-center my-5">Contact us</h1>
+  <!-- Section description -->
+  <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+    eum porro a pariatur veniam.</p>
+
+  <!-- Grid row -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-lg-6 mb-lg-0 mb-4">
+      <!-- Form with header -->
+      <div class="card">
+        <div class="card-body">
+          <!-- Header -->
+          <div class="form-header blue accent-1">
+            <h3 class="mt-2 text-secondary"><i class="fas fa-envelope text-secondary"></i> Write to us:</h3>
+          </div>
+          <p class="text-secondary">We'll write rarely, but only the best content.</p>
+          <!-- Body -->
+          <div class="md-form input-group flex-nowrap mb-3 shadow-sm">
+			<div class="input-group-prepend">
+				<i class="fas fa-user prefix text-secondary"></i>
+			</div>
+            <input type="text" id="form-name" class="form-control text-secondary" placeholder="Your name">
+          </div>
+          <div class="md-form input-group flex-nowrap mb-3 shadow-sm">
+			<div class="input-group-prepend">
+				<i class="fas fa-envelope prefix text-secondary"></i>
+			</div>
+            <input type="text" id="form-email" class="form-control text-secondary" placeholder="Your email">
+          </div>
+          <div class="md-form input-group flex-nowrap mb-3 shadow-sm">
+			<div class="input-group-prepend">
+				<i class="fas fa-tag prefix text-secondary"></i>
+			</div>
+            <input type="text" id="form-Subject" class="form-control text-secondary" placeholder="Subject">
+          </div>
+          <div class="md-form input-group flex-nowrap mb-3 shadow-sm">
+			<div class="input-group-prepend">
+				<i class="fas fa-pencil-alt prefix text-secondary"></i>
+			</div>
+            <textarea id="form-text" class="form-control md-textarea text-secondary" rows="3" placeholder="Write message"></textarea>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div><!-- Form with header -->
+    </div><!-- Grid column -->
+    <div class="col-lg-6"><!--Google map-->
+      <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2729.221796529417!2d29.025560115123568!3d46.83932354865727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c99e4f8d092f3b%3A0x73ba943177dbadff!2sASCONI+Winery!5e0!3m2!1sen!2s!4v1561881493066!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <!-- Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4 ic">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-map-marker-alt shadow text-secondary"></i>
+          </a>
+          <p class="text-secondary">New York, 94126</p>
+          <p class="mb-md-0 text-secondary">United States</p>
+        </div>
+        <div class="col-md-4 ic">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-phone shadow text-secondary"></i>
+          </a>
+          <p class="text-secondary">+ 01 234 567 89</p>
+          <p class="mb-md-0 text-secondary">Mon - Fri, 8:00-22:00</p>
+        </div>
+        <div class="col-md-4 ic">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-envelope shadow text-secondary"></i>
+          </a>
+          <p class="text-secondary">info@gmail.com</p>
+          <p class="mb-0 text-secondary">sale@gmail.com</p>
+        </div>
+      </div>
+    </div><!-- Grid column -->
+  </div><!-- Grid row -->
+</section><!-- Section: Contact v.1 -->
+</div>
+<hr />
+
+
+/* stiluri pentru pagina Contacte */
+/* proprietati pentru pagina contacte */
+/* copiate */
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* adaugate */
+.md-form i {
+	background: MistyRose;
+	padding: 10px;
+	border-radius: 4px;
+}
+.ic i {
+	background: MistyRose;
+	padding: 15px;
+	border-radius: 100%;
+}
